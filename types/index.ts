@@ -37,3 +37,25 @@ export interface CartItem {
   unitPrice: number;
   lineTotal: number;
 }
+
+export interface ArticleCategory {
+  slug: string;
+  title: string;
+  description: string;
+}
+
+export interface Article {
+  slug: string;
+  title: string;
+  /** Slug of the parent ArticleCategory. */
+  category: string;
+  /** Short editorial pill shown on cards (e.g. "Ingredient Deep Dive"). */
+  badge: string;
+  excerpt: string;
+  readTime: number;
+  publishedAt: string;
+  author: string;
+  featured?: boolean;
+  /** Markdown body (GFM). */
+  body: string;
+}

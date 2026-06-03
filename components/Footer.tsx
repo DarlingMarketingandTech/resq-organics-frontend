@@ -16,9 +16,15 @@ const footerColumns = [
     title: "Learn",
     links: [
       { label: "The Purity Lab", href: "/purity-lab" },
-      { label: "The Science of Purity", href: "/purity-lab" },
-      { label: "The Relief Protocol", href: "/purity-lab" },
-      { label: "Family & Fur", href: "/purity-lab" },
+      {
+        label: "The Science of Purity",
+        href: "/purity-lab/category/science-of-purity",
+      },
+      {
+        label: "The Relief Protocol",
+        href: "/purity-lab/category/relief-protocol",
+      },
+      { label: "Family & Fur", href: "/purity-lab/category/family-and-fur" },
     ],
   },
   {
