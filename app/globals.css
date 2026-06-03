@@ -1,18 +1,26 @@
 @import "tailwindcss";
+@plugin "tailwindcss-animate";
 
 @theme {
-  --color-cream-50: #f8f4ee;
-  --color-cream-100: #f1e8dc;
-  --color-earth-50: #f3ede5;
-  --color-earth-100: #e4d7c8;
-  --color-earth-200: #d6c0aa;
-  --color-earth-500: #8c6f58;
-  --color-earth-600: #735842;
-  --color-earth-700: #5f4634;
-  --color-earth-800: #4f3a2b;
-  --color-earth-900: #2e2118;
+  /* Brand palette */
+  --color-brand-teal: #005c66;
+  --color-brand-teal-dark: #004a52;
+  --color-aloe-green: #4a7c59;
+  --color-charcoal: #333333;
+  --color-warm-sand: #f9f6f0;
+
+  /* Typography */
+  --font-sans: var(--font-inter), Inter, "Avenir Next", "Segoe UI", sans-serif;
+  --font-serif: var(--font-lora), Lora, Georgia, "Times New Roman", serif;
 }
 
 body {
-  font-family: Inter, "Avenir Next", "Segoe UI", sans-serif;
+  font-family: var(--font-sans);
+  background-color: var(--color-warm-sand);
+  color: var(--color-charcoal);
+}
+
+::selection {
+  background-color: var(--color-brand-teal);
+  color: #ffffff;
 }
