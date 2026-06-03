@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream-50: #f8f4ee;
+  --color-cream-100: #f1e8dc;
+  --color-earth-50: #f3ede5;
+  --color-earth-100: #e4d7c8;
+  --color-earth-200: #d6c0aa;
+  --color-earth-500: #8c6f58;
+  --color-earth-600: #735842;
+  --color-earth-700: #5f4634;
+  --color-earth-800: #4f3a2b;
+  --color-earth-900: #2e2118;
+}
+
+body {
+  font-family: Inter, "Avenir Next", "Segoe UI", sans-serif;
+}
